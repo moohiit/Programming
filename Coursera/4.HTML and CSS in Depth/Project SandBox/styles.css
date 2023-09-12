@@ -1,0 +1,89 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+    background-color: rgb(203, 230, 222);
+}
+h2{
+    background-color: rgb(197, 220, 223);
+    font-size: 2rem;
+    margin: 5px;
+    padding: 3px;
+}
+
+section p{
+    background-color:rgb(226, 226, 226);
+    margin: 5px;
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90vw;
+}
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main Section */
+
+section{
+    display: flex;
+    padding: 20px;
+}
+article{
+    flex: 1;
+}
+
+/* Style the Footer Section */
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer div>img{
+    width: 50px;
+    height:auto;
+}
+
+/* Add hover effect for navigation links */
+nav a:hover {
+    color: #ff4500; /* Change the color on hover */
+}
+
+/* Add hover effect for footer images */
+footer img:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
