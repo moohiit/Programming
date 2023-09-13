@@ -1,3 +1,5 @@
+//git command for new repository.
+
 git init
 git symbolic-ref HEAD refs/heads/main
 git add .
@@ -5,3 +7,12 @@ git commit -m "New Repository Created"
 git remote add origin https://github.com/moohiit/Programming.git
 git branch -M main
 git push -u origin main
+
+
+
+//For updating new changes
+
+
+git add .
+git commit -m "new files added"
+git push
