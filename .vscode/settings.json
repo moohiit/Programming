@@ -1,3 +1,4 @@
 {
-    "r.lsp.promptToInstall": false
+  "r.lsp.promptToInstall": false,
+  "livePreview.defaultPreviewPath": "/Web Development/JavaScript-Full-Course/11_Fun_With_JS/closure.html"
 }
